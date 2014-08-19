@@ -1,0 +1,49 @@
+body {margin:0;padding:0;font-family: 'Roboto Condensed', sans serif;}
+main {}
+#scene {width:100%;height:100%;}
+.slide {
+	margin: 0 ;
+	padding: 0;
+	overflow: hidden;
+	height:0px;
+	float:left;
+}
+.scene {padding: 0;margin: 0;height:100%;width:100%}
+.scene > li {width:100%;height:100%;display:flex;align-items:center;}
+.scene > li > img {width:105%;height:105%}
+#hellcatSlide {background-image:url('../img/sky.jpg');background-position:center;background-size:100% 100%;}
+#hellcatText {
+	position:absolute;
+	width:116%;
+	top:24%;
+	text-align:center;
+	font-weight:700;
+	font-size:8em;
+	text-shadow:2px 2px 6px #000;
+	color:#fff;
+}
+#info {
+	display: block;
+	position: absolute;
+	width:100%;
+	top:43%;
+	text-align:center;
+}
+#info > div {
+	width:20%;
+	padding: 0 .4em .4em .4em;
+	margin-left:60%;
+	background-color:rgba(255,255,255,0.8);
+	box-shadow:2px 2px 8px #000;
+}
+#deck {
+	position:absolute;
+	top:4%;
+	right:2%;
+	width:110%;
+}
+#aircraft {
+	position:absolute;
+	top:4%;
+	right:2%;
+}
