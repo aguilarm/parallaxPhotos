@@ -1,7 +1,8 @@
-
-
+//set up parallax.js scenes
 var scene1=document.getElementById('scene1');
+	scene2=document.getElementById('scene2');
 	var parallax = new Parallax(scene1);
+		parallax2 = new Parallax(scene2);
 
 	//set up variables
 	var winH = $(window).height();
